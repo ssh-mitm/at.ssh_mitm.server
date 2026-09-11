@@ -31,6 +31,24 @@
   <url type="help">https://docs.ssh-mitm.at/</url>
   <url type="bugtracker">https://github.com/ssh-mitm/ssh-mitm/issues</url>
   <releases>
+    <release version="6.0.0" date="2026-09-10">
+      <description>
+        <p>Added</p>
+        <ul>
+          <li>GSSAPI username validity oracle audit tool</li>
+          <li>interactive tutorial system (ssh-mitm tutorial)</li>
+          <li>NETCONF forwarder and PowerShell remoting interception</li>
+          <li>multiple host keys with a persistent host key across restarts</li>
+          <li>interactive plugin browser</li>
+          <li>reproducible AppImage packaging</li>
+        </ul>
+        <p>Changed</p>
+        <ul>
+          <li>Python 3.11 or newer is now required</li>
+          <li>DSS/DSA keys are no longer supported</li>
+        </ul>
+      </description>
+    </release>
     <release version="5.0.0" date="2024-07-06">
       <description>
         <p>Changed</p>
@@ -50,7 +68,7 @@
     <keyword>mitm</keyword>
     <keyword>proxy</keyword>
   </keywords>
-  <content_rating type="oars-1.0" />
+  <content_rating type="oars-1.1" />
   <screenshots>
     <screenshot type="default">
       <image>https://docs.ssh-mitm.at/_images/intro.png</image>
